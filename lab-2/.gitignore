@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Dataset folders (Roboflow/YOLO)
+Buses-*/
+buses-bnr45-*/
+data/
+*.zip
+
+# YOLO training outputs
+runs/
+weights/
+*.pt
+*.onnx
+*.engine
+*.tflite
+best.pt
+last.pt
+
+# Logs
+*.log
+wandb/
+tensorboard/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.cache
+
+# API keys (ВАЖЛИВО!)
+config.py
+secrets.py
+.env
+api_keys.txt
+roboflow_key.txt
